@@ -1,0 +1,10 @@
+name: 'Verify Pull Request Body'
+description: ""
+inputs:
+  ptn: 
+    description: 'Pattern to require in PR body'
+    required: true
+    default: '- [x] QA has been completed (please comment below):'
+runs:
+  using: 'node12'
+  main: 'index.js'
