@@ -4,7 +4,7 @@ inputs:
   ptn: 
     description: 'Pattern to require in PR body'
     required: true
-    default: '- [x] QA has been completed (please comment below):'
+    default: '- [x] Appropriate QA has been completed (please comment below, linking to bugs or issues as relevant):'
 runs:
   using: 'node12'
   main: 'index.js'
